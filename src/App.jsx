@@ -79,7 +79,7 @@ const Navbar = () => {
                     }`}
             >
                 <div className="font-bold tracking-tighter text-xl flex items-center gap-2">
-                    <img src={isScrolled || menuOpen ? "/logoAssets/logoInvertedLong.png" : "/logoAssets/logoInverted.png"} alt="Pixel & Punch Logo" className="h-8 md:h-10 transition-all duration-300" />
+                    <img src={isScrolled || menuOpen ? "/logoInvertedLong.png" : "/logoInverted.png"} alt="Pixel & Punch Logo" className="h-8 md:h-10 transition-all duration-300" />
                 </div>
 
                 {/* Desktop Menu */}
@@ -581,7 +581,7 @@ const Founder = () => {
                         </div>
 
                         <div className="mt-12 pt-10 border-t border-slate/10">
-                            <img src="/logoAssets/pixel--punch-high-resolution-logo-grayscale-punch.png" alt="Pixel & Punch" className="h-8 opacity-40 hover:opacity-100 transition-opacity" />
+                            <img src="/pixel--punch-high-resolution-logo-grayscale-punch.png" alt="Pixel & Punch" className="h-8 opacity-40 hover:opacity-100 transition-opacity" />
                         </div>
                     </div>
                 </div>
@@ -627,7 +627,7 @@ const Footer = () => {
             <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12">
                 <div className="md:col-span-2">
                     <div className="font-bold tracking-tighter text-3xl mb-4 flex items-center gap-3">
-                        <img src="/logoAssets/pixel--punch-high-resolution-logo-grayscale-transparent-punch.png" alt="Pixel & Punch Logo" className="h-10 opacity-90" />
+                        <img src="/pixel--punch-high-resolution-logo-grayscale-transparent-punch.png" alt="Pixel & Punch Logo" className="h-10 opacity-90" />
                     </div>
                     <p className="text-[#FAF8F5]/60 max-w-sm mb-12">Reclaim your time and accelerate your bottom line with intelligent marketing and automation systems. Simple, scalable, and beautifully efficient.</p>
 
